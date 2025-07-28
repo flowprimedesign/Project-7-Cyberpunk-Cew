@@ -1,0 +1,16 @@
+/* Card.css - This file is now consolidated into App.css for cyberpunk theme */
+/* All card styling has been moved to App.css for better theme consistency */
+
+/* Keep only component-specific overrides here if needed */
+.Card.challenge-card .title {
+  color: var(--neon-orange);
+  text-shadow: 0 0 10px var(--neon-orange), 0 0 20px var(--neon-orange);
+}
+
+.Card.crew-card .title {
+  color: var(--neon-green);
+}
+
+.Card.crew-card .author {
+  color: var(--neon-cyan);
+}
